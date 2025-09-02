@@ -80,6 +80,12 @@ li.nav-hov:hover > ul {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
+
+.hov-languages:hover .languages-option {
+  display: block;
+}
 @media screen and (max-width:1200px){
   .inside {
     visibility: hidden;
@@ -132,7 +138,7 @@ li.nav-hov:hover > ul {
 
 /* Hero  */
 .overlay {
-  background-image: url('../public/img/hero-img.jpg');
+  background-image: url('src/assets/img/hero-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
