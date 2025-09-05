@@ -14,7 +14,7 @@ const Vegetables = () => {
                         <div key={val.id} className='box border rounded-lg border-orange-400 mx-auto mb-6 w-full'>
                             <div className='w-full relative overflow-clip'>
                                 <img className='hover:scale-150 duration-500 w-full rounded-lg' src={val.img} alt="" />
-                                <span className='absolute top-3 right-3 text-white text-lg py-1 px-4 rounded-xl' style={{backgroundColor: '#81c408'}}>Vegetables</span>
+                                <span className='absolute top-3 right-3 text-white text-lg py-1 px-4 rounded-xl' style={{backgroundColor: '#0B8457'}}>Vegetables</span>
                             </div>
                             <div className='text-center'>
                                 <h3 className='text-2xl mt-5 font-semibold' style={{color: '#45595b'}}>{val.name}</h3>
@@ -23,8 +23,8 @@ const Vegetables = () => {
                             <div className='flex justify-between items-center mb-8 mx-6 xl:mx-3'>
                                 <p className='font-semibold text-lg' style={{color: '#0c363b'}}>${val.price} / Kg</p>
                                 <div className='border rounded-full border-orange-400 py-2 px-4 lg:px-2 '>
-                                    <span className='pr-4 lg:pr-1 ' style={{color: '#81c408'}}>{val.icon}</span>
-                                    <button  className='font-semibold' style={{color: '#81c408'}}>{val.cart}</button>
+                                    <span className='pr-4 lg:pr-1 ' style={{color: '#0B8457'}}>{val.icon}</span>
+                                    <button  className='font-semibold' style={{color: '#0B8457'}}>{val.cart}</button>
                                 </div>
                             </div>
                         </div>

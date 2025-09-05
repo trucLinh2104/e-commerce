@@ -1,25 +1,25 @@
 export const featured = [
     {
         id: '1',
-        icon: <i className='fas fa-car-side fa-3x'></i>,
-        name: "Free Shipping",
-        desc: "Free on order over $300",
+        icon: <i className='fas fa-car-side fa-3x text-black'></i>,
+        name: "Products",
+        desc: "500,000+",
     },
     {
         id: '2',
-        icon: <i className='fas fa-user-shield fa-3x'></i>,
-        name: "Security Payment",
+        icon: <i className='fas fa-user-shield fa-3x text-black'></i>,
+        name: "Suppliers",
         desc: "100% security payment",
     },
     {
         id: '3',
-        icon: <i className='fas fa-exchange-alt fa-3x'></i>,
+        icon: <i className='fas fa-exchange-alt fa-3x text-black'></i>,
         name: "30 Day Return",
         desc: "30 day money guarantee",
     },
     {
         id: '4',
-        icon: <i className='fa fa-phone fa-3x'></i>,
+        icon: <i className='fa fa-phone fa-3x text-black'></i>,
         name: "24/7 Support",
         desc: "Support every time fast",
     },
@@ -258,7 +258,7 @@ export const testimonial = [
         name: 'Client Name',
         star: <i className="fas fa-star"></i>,
         prof: 'Profession',
-        icon: <i className='fa fa-quote-right fa-2x' style={{color: '#ffb524'}}></i>
+        icon: <i className='fa fa-quote-right fa-2x' style={{color: 'rgb(255, 252, 189)'}}></i>
     },
     {
         id: '2',
@@ -267,7 +267,7 @@ export const testimonial = [
         name: 'Client Name',
         star: <i className="fas fa-star"></i>,
         prof: 'Profession',
-        icon: <i className='fa fa-quote-right fa-2x' style={{color: '#ffb524'}}></i>
+        icon: <i className='fa fa-quote-right fa-2x' style={{color: 'rgb(255, 252, 189)'}}></i>
     },
 ]
 

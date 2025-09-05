@@ -2,7 +2,7 @@ import React from 'react'
 
 const Banner = () => {
     return (
-        <div className='mt-40 py-20' style={{backgroundColor: '#ffb524'}}>
+        <div className='mt-40 py-20' style={{backgroundColor: 'rgb(255, 252, 189)'}}>
             <div className='mx-10 lg:flex lg:justify-between lg:items-center xl:mx-24'>
                 <div className='mx-auto'>
                     <h1 className='text-4xl lg:text-6xl text-white font-bold'>Fresh Exotic Fruits</h1>

@@ -18,16 +18,16 @@ const Bestseller = () => {
                                 <div className=''>
                                     <h5 className='py-2 mb-4 text-lg font-semibold w-20' style={{color: '#45595b'}}>{val.name}</h5>
                                     <ul className='flex my-3'>
-                                        <li style={{color: '#81c408'}}>{val.star}</li>
-                                        <li style={{color: '#81c408'}}>{val.star}</li>
-                                        <li style={{color: '#81c408'}}>{val.star}</li>
-                                        <li style={{color: '#81c408'}}>{val.star}</li>
+                                        <li style={{color: '#0B8457'}}>{val.star}</li>
+                                        <li style={{color: '#0B8457'}}>{val.star}</li>
+                                        <li style={{color: '#0B8457'}}>{val.star}</li>
+                                        <li style={{color: '#0B8457'}}>{val.star}</li>
                                         <li style={{color: '#45595b'}}>{val.star}</li>
                                     </ul>
                                     <p className='text-lg font-semibold ' style={{color: '#45595b'}}>${val.price} / Kg</p>
                                     <div className='border rounded-full border-orange-400 mt-6 py-2 px-4 lg:pr-2 '>
-                                        <span className='pr-4 lg:pr-1 ' style={{color: '#81c408'}}>{val.icon}</span>
-                                        <button  className='font-semibold' style={{color: '#81c408'}}>{val.cart}</button>
+                                        <span className='pr-4 lg:pr-1 ' style={{color: '#0B8457'}}>{val.icon}</span>
+                                        <button  className='font-semibold' style={{color: '#0B8457'}}>{val.cart}</button>
                                     </div>
                                 </div>
                             </div>

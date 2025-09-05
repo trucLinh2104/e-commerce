@@ -7,8 +7,8 @@ const Fact = () => {
             {fact.map((val) => {
                 return (
                     <div className='py-10 rounded-lg' style={{backgroundColor: '#fff'}} key={val.id}>
-                        <span className='text-5xl' style={{color: '#ffb524'}}>{val.icon}</span>
-                        <h1 className='text-2xl w-52 sm:w-auto md:w-52 m-auto uppercase font-semibold my-6' style={{color: '#81c408'}}>{val.name}</h1>
+                        <span className='text-5xl' style={{color: 'rgb(255, 252, 189)'}}>{val.icon}</span>
+                        <h1 className='text-2xl w-52 sm:w-auto md:w-52 m-auto uppercase font-semibold my-6' style={{color: '#0B8457'}}>{val.name}</h1>
                         <p className='text-3xl font-semibold' style={{color: '#45595b'}}>{val.num}</p>
                     </div>
                 )

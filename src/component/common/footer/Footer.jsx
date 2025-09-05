@@ -5,8 +5,8 @@ const Footer = () => {
         <div className='mt-40 px-6 py-10 sm:px-20 md:px-24 lg:px-16 xl:px-20' style={{backgroundColor: '#45595b'}}>
             <div className='py-10 lg:grid lg:grid-cols-3 lg:items-center xl:flex xl:justify-between '>
                 <div>
-                    <h1 className='text-3xl font-semibold lg:text-4xl lg:grid-cols-1' style={{color: '#81c408'}}>Fruitables</h1>
-                    <p className='text-md' style={{color: '#ffb524'}}>Fresh products</p>
+                    <h1 className='text-3xl font-semibold lg:text-4xl lg:grid-cols-1' style={{color: '#0B8457'}}>Fruitables</h1>
+                    <p className='text-md' style={{color: 'rgb(255, 252, 189)'}}>Fresh products</p>
                 </div>
                 <div className='relative box-border w-full xl:mx-28 my-10 lg:grid-cols-2'>
                     <input className='border-gray-100 outline-none relative w-full rounded-full pl-4 py-3 px-4' type="email" placeholder='Your Email'/>
@@ -61,7 +61,7 @@ const Footer = () => {
             </div>
             <hr className=' my-6'/>
             <div className='m-auto text-center'>
-                <p className='font-medium' style={{color: '#ffffff80'}}><strong style={{color: '#ffb524'}}>&copy;Vegetables Ecommerce, </strong>All Right Reserved by Rodi Shammout</p>
+                <p className='font-medium' style={{color: '#ffffff80'}}><strong style={{color: 'rgb(255, 252, 189)'}}>&copy;Vegetables Ecommerce, </strong>All Right Reserved by Rodi Shammout</p>
             </div>
         </div>
     )

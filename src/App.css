@@ -1,26 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 body {
   font-family: "Raleway", sans-serif;
+  padding-right: 0 !important;
+  overflow: visible !important;
 }
 .main {
-  background-color: #81c408;
+  background-color: #0B8457;
 }
 .secondary {
-  color: #ffb524;
+  color: rgba(255, 252, 189, 0.76);
 }
 .main-text {
-  color: #81c408;
+  color: #0B8457;
 }
 /* Header  */
 .top {
   border-radius: 230px 100px;
 }
 .hov:hover {
-  color: #ffb524;
+  color: rgb(255, 252, 189);
 }
 li.nav-hov:hover {
   cursor: pointer;
-  color: #81c408;
+  color: #0B8457;
 }
 li.nav-hov:hover > ul {
   color: black; /* giữ màu không đổi */
@@ -29,15 +31,15 @@ li.nav-hov:hover > ul {
   transition: 0.3s;
 }
 .search {
-  border: 1px solid #ffb524;
+  border: 1px solid rgb(255, 252, 189);
   border-radius: 50%;
   transition: 0.3s;
 }
 .search-hov:hover {
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
 }
 .bord {
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
 }
 .icon-hov {
   transition: 0.3s;
@@ -65,7 +67,7 @@ li.nav-hov:hover > ul {
 
 }
 .bars {
-  color: #81c408;
+  color: #0B8457;
   border: 1px solid rgba(0,0,0,0.1);
   border-radius: 10px;
 }
@@ -73,7 +75,7 @@ li.nav-hov:hover > ul {
   position: absolute;
   top: 40px;
   left: 0;
-  color: #81c408;
+  color: #0B8457;
   padding: 10px 15px;
 }
 .bar-menu li {
@@ -131,7 +133,7 @@ li.nav-hov:hover > ul {
   }
   .pages:hover .inside li {
     padding: 5px;
-    color: #81c408;
+    color: #0B8457;
   }
 }
 
@@ -159,7 +161,7 @@ li.nav-hov:hover > ul {
 .img {
   transform: translate(-50%,-50%);
   border-radius: 10px;
-  background-color: #ffb624c9;
+  background-color: #FF4E5C2;
 }
 
 /* Featured  */
@@ -168,7 +170,7 @@ li.nav-hov:hover > ul {
   position: absolute;
   width: 35px;
   height: 35px;
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
   bottom: 30px;
   transform: rotate(45deg);
 }
@@ -195,7 +197,7 @@ li.nav-hov:hover > ul {
 
 /* Banner  */
 .buy:hover {
-  background-color: #81c408;
+  background-color: #0B8457;
   cursor: pointer;
 }
 
@@ -231,7 +233,7 @@ li.nav-hov:hover > ul {
 }
 .footer-body:hover {
   cursor: pointer;
-  color: #ffb524;
+  color: rgb(255, 252, 189);
 }
 .footer-body ,
 .footer-contact {
@@ -250,26 +252,26 @@ li.nav-hov:hover > ul {
   }
 }
 .read {
-  color: #81c408;
+  color: #0B8457;
 }
 .read:hover {
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
   color: #fff;
 }
 .subscribe {
-  background-color: #81c408;
+  background-color: #0B8457;
 }
 .subscribe:hover {
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
 }
 .social {
-  color: #ffb524;
+  color: rgb(255, 252, 189);
   transition: 0.5s;
 }
 .social:hover {
   cursor: pointer;
   color: #000;
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
 }
 
 
@@ -319,33 +321,33 @@ li.nav-hov:hover > ul {
 
 /* Shop */
 .apple {
-  color: #81c408;
+  color: #0B8457;
 }
 .apple:hover {
-  color: #ffb524;
+  color: rgb(255, 252, 189);
   cursor: pointer;
 }
 .btn-view {
-  color: #81c408;
+  color: #0B8457;
 }
 .btn-view:hover {
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
   color: #fff;
 }
 .next li {
   transition: 0.5s;
 }
 .next li:hover {
-  background-color: #81c408;
+  background-color: #0B8457;
   cursor: pointer;
 }
 
 /* Shop Detail  */
 .post:hover {
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
 }
 .post button {
-  color: #81c408;
+  color: #0B8457;
 }
 .post:hover button {
   color: #fff;
@@ -356,17 +358,17 @@ li.nav-hov:hover > ul {
   color: #45595b;
 }
 .btn-error:hover {
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
   color: #fff;
 }
 
 /* Contact  */
 .input-contact {
-  color: #81c408;
+  color: #0B8457;
 }
 .input-contact:hover {
   color: #fff;
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
   cursor: pointer;
 }
 
@@ -377,19 +379,19 @@ li.nav-hov:hover > ul {
 }
 .coupon,
 .checkout {
-  color: #81c408;
+  color: #0B8457;
 }
 .coupon:hover,
 .checkout:hover {
   color: #fff;
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
 }
 
 /* Checkout  */
 .order {
-  color: #81c408;
+  color: #0B8457;
 }
 .order:hover {
-  background-color: #ffb524;
+  background-color: rgb(255, 252, 189);
   color: #fff;
 }

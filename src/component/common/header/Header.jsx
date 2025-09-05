@@ -1,9 +1,12 @@
 import React, {useState} from 'react'
 import {Link} from 'react-router-dom'
+import LongMenu from '../LongMenu.jsx';
+import FadeMenu from '../FadeMenu.jsx';
 
 const Header = () => {
     const [bar, setBar] = useState(false);
     const totalItems = 1;
+    const categories = ['Điện thoại', 'Laptop', 'Phụ kiện'];
     return (
         <div className="header fixed w-full bg-white z-10">
             <div
@@ -23,13 +26,13 @@ const Header = () => {
                         Languages
                         <i className="fa fa-angle-down pl-1 hover:cursor-pointer"></i>
                         <ul className="absolute hidden group-hover:block rounded-md bg-gray-200 xl:py-2 pl-3 pr-8 z-20 w-[120px]">
-                            <li className="p-1 li-hov flex flex-nowrap items-center justify-start gap-2">
+                            <li className="p-1 li-hov flex flex-nowrap items-center justify-start gap-2 text-black">
                                  <img alt="img" src="https://flagcdn.com/w20/vn.webp" className="flag"
                                       style={{ display: "flex", marginRight: "8px" }}/>
                                 VietNam
 
                             </li>
-                            <li className="p-1 li-hov flex flex-nowrap items-center justify-start gap-2">
+                            <li className="p-1 li-hov flex flex-nowrap items-center justify-start gap-2 text-black">
                                  <img alt="img" src="https://flagcdn.com/w20/gb.webp" className="flag"
                                       style={{ display: "flex", marginRight: "8px" }}/>
                                 English</li>
@@ -74,8 +77,34 @@ const Header = () => {
                 <i className='fa fa-bars xl:hidden bars py-1 px-4 text-xl hover:cursor-pointer'
                    onClick={() => setBar(!bar)}></i>
             </div>
+
+            <div className="md:container md:mx-auto flex justify-between m-6 sticky z-10">
+                <div className="flex flex-nowrap w-1/3 gap-2 items-center">
+                    <LongMenu></LongMenu>
+                    <span className="text-gray-500 font-extrabold text-[1rem]">Danh mục sản phẩm</span>
+
+
+                </div>
+
+                <div className="portal-option flex flex-1 justify-end items-center">
+                    <div className="flex flex-nowrap w-1/3 gap-2 justify-end">
+                        <FadeMenu title="Dành cho người mua"
+                                  options={categories}
+                        ></FadeMenu>
+                        <i className="fa fa-angle-down pl-1 hover:cursor-pointer flex items-center"></i>
+                    </div>
+                    <div className="flex flex-nowrap w-1/3 gap-2 justify-end">
+                        <FadeMenu title="Dành cho người bán"
+                                  options={categories}
+                        ></FadeMenu>
+                        <i className="fa fa-angle-down pl-1 hover:cursor-pointer flex items-center"></i>
+
+                    </div>
+                </div>
+
+            </div>
         </div>
     )
 }
 
-export default Header
+export default Header;
