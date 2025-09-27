@@ -107,6 +107,43 @@ li.nav-hov:hover > ul {
     color: #000;
   }
 }
+
+.product .slick-slide > div {
+  padding: 0 10px !important; /* mỗi slide cách nhau 20px */
+}
+.product  .slick-list {
+  margin: 0 -10px; /* bù lại padding để căn sát container */
+}
+
+.product  .slick-slide{
+  display: inline-block;
+  width:350px !important;
+}
+.product .slick-track{
+  height: 450px !important;
+}
+
+.carousel .slick-list,  .carousel .slick-slide, .carousel .slick-track, .carousel .slick-slide > div, .carousel .slick-slider.slick-initialized {
+  height: 100%;
+}
+.carousel .slick-slide > div{
+  position: relative;
+}
+.carousel ul.slick-dots {
+  position: absolute;
+  bottom: 10px;
+  background-color: #f0f3f2;
+  z-index: 10;
+  width: 100px;
+  border-radius: 20px;
+  left: 50%;
+  padding: 2px 0px;
+  display: flex !important;
+  align-items: center;
+  transform: translateX(-50%);
+
+}
+
 @media screen and (min-width:1200px) {
   .bar-menu {
     display: flex;
@@ -140,22 +177,26 @@ li.nav-hov:hover > ul {
 
 /* Hero  */
 .overlay {
-  background-image: url('src/assets/img/hero-img.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment:fixed;
-  height: 800px;
+  box-sizing: border-box;
+  height: 700px;
+}
+.categories-header > .MuiTypography-root{
+  font-size: 2.5rem !important;
+  font-weight: bold !important;
+}
+.categories-item >.MuiTypography-root{
+  font-size: 1.2rem !important;
+  font-weight: 700 !important;
 }
 @media screen and (min-width:576px) and (max-width:992px) {
   .overlay {
-    height: 900px;
+    height: 500px;
   }
 }
 
 @media screen and (min-width:992px) {
   .overlay {
-    height: 600px;
+    height: 500px;
   }
 }
 .img {

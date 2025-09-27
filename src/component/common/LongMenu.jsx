@@ -23,10 +23,11 @@ const options = [
 
 const ITEM_HEIGHT = 48;
 
-export default function LongMenu() {
+export default function LongMenu({icon, isDisplayMenuIcon}) {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
     const handleClick = (event) => {
+        console.log(event.currentTarget);
         setAnchorEl(event.currentTarget);
     };
     const handleClose = () => {
@@ -53,8 +54,9 @@ export default function LongMenu() {
                 slotProps={{
                     paper: {
                         style: {
-                            maxHeight: ITEM_HEIGHT * 4.5,
-                            width: '20ch',
+                            maxHeight: ITEM_HEIGHT * 10,
+                            width: 'calc(30% - 100px)',
+                            position: 'absolute',
                         },
                     },
                     list: {

@@ -8,7 +8,7 @@ const Header = () => {
     const totalItems = 1;
     const categories = ['Điện thoại', 'Laptop', 'Phụ kiện'];
     return (
-        <div className="header fixed w-full bg-white z-10">
+        <div className="header fixed w-full bg-white z-20">
             <div
                 className='md:container md:mx-auto hidden lg:flex lg:justify-between text-white text-sm main p-4 top box-border '>
                 <div className='flex'>
@@ -78,31 +78,31 @@ const Header = () => {
                    onClick={() => setBar(!bar)}></i>
             </div>
 
-            <div className="md:container md:mx-auto flex justify-between m-6 sticky z-10">
-                <div className="flex flex-nowrap w-1/3 gap-2 items-center">
-                    <LongMenu></LongMenu>
-                    <span className="text-gray-500 font-extrabold text-[1rem]">Danh mục sản phẩm</span>
+            {/*<div className="md:container md:mx-auto flex justify-between m-6 sticky z-10">*/}
+            {/*    <div className="flex flex-nowrap w-1/3 gap-2 items-center">*/}
+            {/*        <LongMenu></LongMenu>*/}
+            {/*        <span className="text-gray-500 font-extrabold text-[1rem]">Danh mục sản phẩm</span>*/}
 
 
-                </div>
+            {/*    </div>*/}
 
-                <div className="portal-option flex flex-1 justify-end items-center">
-                    <div className="flex flex-nowrap w-1/3 gap-2 justify-end">
-                        <FadeMenu title="Dành cho người mua"
-                                  options={categories}
-                        ></FadeMenu>
-                        <i className="fa fa-angle-down pl-1 hover:cursor-pointer flex items-center"></i>
-                    </div>
-                    <div className="flex flex-nowrap w-1/3 gap-2 justify-end">
-                        <FadeMenu title="Dành cho người bán"
-                                  options={categories}
-                        ></FadeMenu>
-                        <i className="fa fa-angle-down pl-1 hover:cursor-pointer flex items-center"></i>
+            {/*    <div className="portal-option flex flex-1 justify-end items-center">*/}
+            {/*        <div className="flex flex-nowrap w-1/3 gap-2 justify-end">*/}
+            {/*            <FadeMenu title="Dành cho người mua"*/}
+            {/*                      options={categories}*/}
+            {/*            ></FadeMenu>*/}
+            {/*            <i className="fa fa-angle-down pl-1 hover:cursor-pointer flex items-center"></i>*/}
+            {/*        </div>*/}
+            {/*        <div className="flex flex-nowrap w-1/3 gap-2 justify-end">*/}
+            {/*            <FadeMenu title="Dành cho người bán"*/}
+            {/*                      options={categories}*/}
+            {/*            ></FadeMenu>*/}
+            {/*            <i className="fa fa-angle-down pl-1 hover:cursor-pointer flex items-center"></i>*/}
 
-                    </div>
-                </div>
+            {/*        </div>*/}
+            {/*    </div>*/}
 
-            </div>
+            {/*</div>*/}
         </div>
     )
 }

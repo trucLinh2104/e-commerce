@@ -3,7 +3,7 @@ import { featured } from '../../../data/Data.jsx'
 
 const Featured = () => {
     return (
-        <div className='container mx-auto mt-32'>
+        <div className='container mx-auto mt-[300px]'>
             <div className='mx-6 md:grid md:grid-cols-2 md:gap-4 lg:grid-cols-4'>
                 {
                     featured.map((val) => {

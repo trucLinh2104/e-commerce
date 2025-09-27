@@ -9,13 +9,13 @@ export const featured = [
         id: '2',
         icon: <i className='fas fa-user-shield fa-3x text-black'></i>,
         name: "Suppliers",
-        desc: "100% security payment",
+        desc: "3M+",
     },
     {
         id: '3',
         icon: <i className='fas fa-exchange-alt fa-3x text-black'></i>,
-        name: "30 Day Return",
-        desc: "30 day money guarantee",
+        name: "Buyer",
+        desc: "2M+",
     },
     {
         id: '4',
@@ -28,7 +28,7 @@ export const featured = [
 export const fruits = [
     {
         id: '1',
-        img: '../img/fruite-item-5.jpg',
+        img: 'src/assets/img/fruite-item-5.jpg',
         name: 'Grapes',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '5.40',
@@ -37,7 +37,7 @@ export const fruits = [
     },
     {
         id: '2',
-        img: '../img/fruite-item-1.jpg',
+        img: 'src/assets/img/fruite-item-1.jpg',
         name: 'Oranges',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '4.99',
@@ -46,7 +46,7 @@ export const fruits = [
     },
     {
         id: '3',
-        img: '../img/fruite-item-2.jpg',
+        img: 'src/assets/img/fruite-item-2.jpg',
         name: 'Raspberries',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '4.70',
@@ -55,7 +55,7 @@ export const fruits = [
     },
     {
         id: '4',
-        img: '../img/fruite-item-3.jpg',
+        img: 'src/assets/img/fruite-item-3.jpg',
         name: 'Banana',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '6.99',
@@ -64,7 +64,7 @@ export const fruits = [
     },
     {
         id: '5',
-        img: '../img/fruite-item-4.jpg',
+        img: 'src/assets/img/fruite-item-4.jpg',
         name: 'Apricots',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '3.99',
@@ -73,7 +73,7 @@ export const fruits = [
     },
     {
         id: '6',
-        img: '../img/fruite-item-5.jpg',
+        img: 'src/assets/img/fruite-item-5.jpg',
         name: 'Grapes',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '5.99',
@@ -82,7 +82,7 @@ export const fruits = [
     },
     {
         id: '7',
-        img: '../img/fruite-item-6.jpg',
+        img: 'src/assets/img/fruite-item-6.jpg',
         name: 'Appels',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '3.80',
@@ -91,10 +91,154 @@ export const fruits = [
     },
 ]
 
+export const buyer = [
+    {
+        id: '1',
+        img: 'src/assets/img/fruite-item-5.jpg',
+        name: 'Lê gia CO,inc',
+        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
+        verify: true,
+        start:3,
+        national_target:"Chinese",
+        cart: 'Add to Cart'
+    },
+    {
+        id: '1',
+        img: 'src/assets/img/fruite-item-5.jpg',
+        name: 'Lê gia1 CO,inc',
+        date:'10/10/2025 9:00',
+        payment_term:"LC",
+        desc: ' This impressive paella is a perfect party dish and a fun meal to cook\n' +
+            '                    together with your guests. Add 1 cup of frozen peas along with the mussels,\n' +
+            '                    if you like.',
+        verify: true,
+        start:5,
+        national_target:"Chinese",
+        quantity:'10 tons',
+        cart: 'Add to Cart'
+    },
+    {
+        id: '2',
+        img: 'src/assets/img/fruite-item-5.jpg',
+        name: 'Lê gia2 CO,inc',
+        date:'10/10/2025 9:00',
+        payment_term:"LC",
+        desc: ' This impressive paella is a perfect party dish and a fun meal to cook\n' +
+            '                    together with your guests. Add 1 cup of frozen peas along with the mussels,\n' +
+            '                    if you like.',
+        verify: true,
+        start:3,
+        national_target:"Chinese",
+        quantity:'10 tons',
+        cart: 'Add to Cart'
+    },
+    {
+        id: '3',
+        img: 'src/assets/img/fruite-item-5.jpg',
+        name: 'Lê gia3 CO,inc',
+        date:'10/10/2025 9:00',
+        desc: ' This impressive paella is a perfect party dish and a fun meal to cook\n' +
+            '                    together with your guests. Add 1 cup of frozen peas along with the mussels,\n' +
+            '                    if you like.',
+        verify: true,
+        start:3,
+        national_target:"Chinese",
+        payment_term:"LC",
+        quantity:'10 tons',
+        cart: 'Add to Cart'
+    },
+    {
+        id: '4',
+        img: 'src/assets/img/fruite-item-5.jpg',
+        name: 'Lê gia4 CO,inc',
+        date:'10/10/2025 9:00',
+        desc: ' This impressive paella is a perfect party dish and a fun meal to cook\n' +
+            '                    together with your guests. Add 1 cup of frozen peas along with the mussels,\n' +
+            '                    if you like.',
+        verify: true,
+        start:3,
+        national_target:"Chinese",
+        payment_term:"LC",
+        quantity:'10 tons',
+        cart: 'Add to Cart'
+    },
+    {
+        id: '5',
+        img: 'src/assets/img/fruite-item-5.jpg',
+        name: 'Lê gia5 CO,inc',
+        date:'10/10/2025 9:00',
+
+        desc: ' This impressive paella is a perfect party dish and a fun meal to cook\n' +
+            '                    together with your guests. Add 1 cup of frozen peas along with the mussels,\n' +
+            '                    if you like.',
+        verify: true,
+        start:4,
+        national_target:"Chinese",
+        payment_term:"LC",
+        quantity:'10 tons',
+        cart: 'Add to Cart'
+    },
+    {
+        id: '6',
+        img: 'src/assets/img/fruite-item-5.jpg',
+        name: 'Lê gia6 CO,inc',
+        date:'10/10/2025 9:00',
+
+        desc: ' This impressive paella is a perfect party dish and a fun meal to cook\n' +
+            '                    together with your guests. Add 1 cup of frozen peas along with the mussels,\n' +
+            '                    if you like.',
+        verify: true,
+        start:5,
+        national_target:"Chinese",
+        payment_term:"LC",
+        quantity:'10 tons',
+        cart: 'Add to Cart'
+    }
+]
+
+export const homeBanner = {
+    largeBanner: [
+        {
+            id: '1',
+            img: 'src/assets/img/fruite-item-5.jpg',
+
+        },
+        {
+            id: '2',
+            img: 'src/assets/img/fruite-item-2.jpg',
+            button:'https://www.google.com/?hl=vi&zx=1757666456723&no_sw_cr=1',
+            button_name:'Xem thêm'
+        },
+        {
+            id: '3',
+            img: 'src/assets/img/fruite-item-1.jpg',
+            button:'https://www.google.com/?hl=vi&zx=1757666456723&no_sw_cr=1',
+            button_name:'Xem thêm'
+
+        }
+    ],
+    smallBanner:  [
+        {
+            id: '1',
+            img: 'src/assets/img/fruite-item-5.jpg',
+
+        },
+        {
+            id: '2',
+            img: 'src/assets/img/fruite-item-2.jpg',
+            button:'https://www.google.com/?hl=vi&zx=1757666456723&no_sw_cr=1',
+            button_name:'Xem thêm'
+        },
+
+    ]
+}
+
+
+
 export const vegetables = [
     {
         id: '1',
-        img: '../img/vegetable-item-1.jpg',
+        img: 'src/assets/img/vegetable-item-1.jpg',
         name: 'Fresh Tomato',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '5.40',
@@ -103,7 +247,7 @@ export const vegetables = [
     },
     {
         id: '2',
-        img: '../img/vegetable-item-5.jpg',
+        img: 'src/assets/img/vegetable-item-5.jpg',
         name: 'Potato',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '3.99',
@@ -112,7 +256,7 @@ export const vegetables = [
     },
     {
         id: '3',
-        img: '../img/vegetable-item-1.jpg',
+        img: 'src/assets/img/vegetable-item-1.jpg',
         name: 'Tomato',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '4.50',
@@ -121,7 +265,7 @@ export const vegetables = [
     },
     {
         id: '4',
-        img: '../img/vegetable-item-4.jpg',
+        img: 'src/assets/img/vegetable-item-4.jpg',
         name: 'Pepper',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '6.99',
@@ -130,7 +274,7 @@ export const vegetables = [
     },
     {
         id: '5',
-        img: '../img/vegetable-item-5.jpg',
+        img: 'src/assets/img/vegetable-item-5.jpg',
         name: 'Potato',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '4.29',
@@ -139,7 +283,7 @@ export const vegetables = [
     },
     {
         id: '6',
-        img: '../img/vegetable-item-6.jpg',
+        img: 'src/assets/img/vegetable-item-6.jpg',
         name: 'Parsley',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '5.10',
@@ -148,7 +292,7 @@ export const vegetables = [
     },
     {
         id: '7',
-        img: '../img/vegetable-item-4.jpg',
+        img: 'src/assets/img/vegetable-item-4.jpg',
         name: 'Pepper',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '2.90',
@@ -157,7 +301,7 @@ export const vegetables = [
     },
     {
         id: '8',
-        img: '../img/vegetable-item-6.jpg',
+        img: 'src/assets/img/vegetable-item-6.jpg',
         name: 'Parsley',
         desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt',
         price: '4.10',
@@ -254,7 +398,7 @@ export const testimonial = [
     {
         id: '1',
         desc: 'Lorem Ipsum is simply dummy text of the printing Ipsum has been the industrys standard dummy text ever since the 1500s.',
-        img: 'src/assets/img/Testimonial-1.jpg',
+        img: 'src/assesrc/assets/img/Testimonial-1.jpg',
         name: 'Client Name',
         star: <i className="fas fa-star"></i>,
         prof: 'Profession',
@@ -263,7 +407,7 @@ export const testimonial = [
     {
         id: '2',
         desc: 'Lorem Ipsum is simply dummy text of the printing Ipsum has been the industrys standard dummy text ever since the 1500s.',
-        img: 'src/assets/img/Testimonial-2.jpg',
+        img: 'src/assesrc/assets/img/Testimonial-2.jpg',
         name: 'Client Name',
         star: <i className="fas fa-star"></i>,
         prof: 'Profession',
@@ -274,7 +418,7 @@ export const testimonial = [
 export const shop_feature = [
     {
         id: '1',
-        img: '../img/featur-1.jpg',
+        img: 'src/assets/img/featur-1.jpg',
         name: 'Big Apples',
         star: <i className="fas fa-star"></i>,
         price: '5.40 $',
@@ -282,7 +426,7 @@ export const shop_feature = [
     },
     {
         id: '2',
-        img: '../img/featur-2.jpg',
+        img: 'src/assets/img/featur-2.jpg',
         name: 'Big Straw',
         star: <i className="fas fa-star"></i>,
         price: '4.99 $',
@@ -290,7 +434,7 @@ export const shop_feature = [
     },
     {
         id: '3',
-        img: '../img/featur-3.jpg',
+        img: 'src/assets/img/featur-3.jpg',
         name: 'Big Carnap',
         star: <i className="fas fa-star"></i>,
         price: '4.70 $',
@@ -298,7 +442,7 @@ export const shop_feature = [
     },
     {
         id: '4',
-        img: '../img/featur-1.jpg',
+        img: 'src/assets/img/featur-1.jpg',
         name: 'Big Apples',
         star: <i className="fas fa-star"></i>,
         price: '5.40 $',
@@ -306,7 +450,7 @@ export const shop_feature = [
     },
     {
         id: '5',
-        img: '../img/featur-2.jpg',
+        img: 'src/assets/img/featur-2.jpg',
         name: 'Big Straw',
         star: <i className="fas fa-star"></i>,
         price: '4.99 $',
@@ -314,7 +458,7 @@ export const shop_feature = [
     },
     {
         id: '6',
-        img: '../img/featur-3.jpg',
+        img: 'src/assets/img/featur-3.jpg',
         name: 'Big Carnap',
         star: <i className="fas fa-star"></i>,
         price: '4.70 $',

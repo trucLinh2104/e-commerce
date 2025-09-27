@@ -25,6 +25,7 @@
     "react-router-dom": "^7.6.0",
     "react-slick": "^0.31.0",
     "tailwindcss": "^3.4.1",
+    "vue3-pdfjs": "^0.1.6",
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
